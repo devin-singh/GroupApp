@@ -18,6 +18,7 @@
 		6523C9EB240590500007BCEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6523C9E9240590500007BCEA /* LaunchScreen.storyboard */; };
 		6523C9F9240591080007BCEA /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6523C9F8240591080007BCEA /* ProfileController.swift */; };
 		6523C9FB2405910F0007BCEA /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6523C9FA2405910F0007BCEA /* Team.swift */; };
+		6523CA002405C1320007BCEA /* Corleone.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 6523C9FF2405C1320007BCEA /* Corleone.TTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		6523C9EC240590500007BCEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6523C9F8240591080007BCEA /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		6523C9FA2405910F0007BCEA /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		6523C9FF2405C1320007BCEA /* Corleone.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = Corleone.TTF; path = ../../../../../../../../../Downloads/Corleone.TTF; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,12 +124,21 @@
 		6523C9F7240590D70007BCEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6523C9FE2405C11A0007BCEA /* Font */,
 				6523C9DE2405904D0007BCEA /* AppDelegate.swift */,
 				6523C9E02405904D0007BCEA /* SceneDelegate.swift */,
 				6523C9E7240590500007BCEA /* Assets.xcassets */,
 				6523C9EC240590500007BCEA /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		6523C9FE2405C11A0007BCEA /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				6523C9FF2405C1320007BCEA /* Corleone.TTF */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +202,7 @@
 				6523C9EB240590500007BCEA /* LaunchScreen.storyboard in Resources */,
 				6523C9E8240590500007BCEA /* Assets.xcassets in Resources */,
 				6523C9E62405904D0007BCEA /* Main.storyboard in Resources */,
+				6523CA002405C1320007BCEA /* Corleone.TTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

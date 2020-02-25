@@ -18,4 +18,5 @@ struct Member {
     var coolExperience: String
     var hometown: String
     var image: UIImage
+    
 }
