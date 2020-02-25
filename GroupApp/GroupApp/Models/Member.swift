@@ -8,15 +8,15 @@
 
 import UIKit
 
-class Member {
+struct Member {
     
     var name: String
+    var weapon: String
+    var superpower: String
+    var nickname: String
+    var coolFact: String
+    var coolExperience: String
+    var hometown: String
     var image: UIImage
-    var bio: String
     
-    init(name: String, image: UIImage, bio: String) {
-        self.name = name
-        self.image = image
-        self.bio = bio
-    }
 }

@@ -12,13 +12,13 @@ class Team {
     
     var name: String
     var members: [Member] = []
-    var teamImage: UIImage
-    var bio: String
+    var teamImage: UIImage?
+    var teambio: String
     
-    init(name: String, members: [Member] = [], teamImage: UIImage, bio: String) {
+    init(name: String, members: [Member] = [], teamImage: UIImage?, teambio: String) {
         self.name = name
         self.members = members
         self.teamImage = teamImage
-        self.bio = bio
+        self.teambio = teambio
     }
 }
