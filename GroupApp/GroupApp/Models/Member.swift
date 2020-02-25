@@ -8,13 +8,14 @@
 
 import UIKit
 
-class Member {
+struct Member {
     
     var name: String
+    var weapon: String
+    var superpower: String
+    var nickname: String
+    var coolFact: String
+    var coolExperience: String
+    var hometown: String
     var image: UIImage
-    
-    init(name: String, image: UIImage) {
-        self.name = name
-        self.image = image
-    }
 }
