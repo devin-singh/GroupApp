@@ -12,9 +12,11 @@ class Member {
     
     var name: String
     var image: UIImage
+    var bio: String
     
-    init(name: String, image: UIImage) {
+    init(name: String, image: UIImage, bio: String) {
         self.name = name
         self.image = image
+        self.bio = bio
     }
 }

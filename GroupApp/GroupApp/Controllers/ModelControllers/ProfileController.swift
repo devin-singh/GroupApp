@@ -6,8 +6,17 @@
 //  Copyright © 2020 Devin Singh. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 class ProfileController {
     
+    
+    static let shared = ProfileController()
+    
+    func grabProfiles() -> [Member] {
+        
+       
+        
+        return []
+    }
 }
