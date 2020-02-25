@@ -6,7 +6,7 @@
 //  Copyright © 2020 Devin Singh. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 class ProfileController {
     
@@ -14,7 +14,7 @@ class ProfileController {
     
     var members = [Member]()
     
-    func createMember() -> [Member] {
+    func createMembers() -> [Member] {
         var members: [Member] = []
         
         for name in MemberProfileHelper.names {
@@ -33,7 +33,9 @@ class ProfileController {
 
             let hometown = MemberProfileHelper.hometowns[index]
             
-            let member = Member(name: name, weapon: weapon, superpower: superpower, nickname: nickname, coolFact: coolFact, coolExperience: coolExperience, hometown: hometown)
+            let imagename = MemberProfileHelper.imageNames[index]
+            
+            let member = Member(name: name, weapon: weapon, superpower: superpower, nickname: nickname, coolFact: coolFact, coolExperience: coolExperience, hometown: hometown, image: UIImage(imageLiteralResourceName: imagename))
             
             members.append(member)
 

@@ -87,4 +87,8 @@ enum MemberProfileHelper {
     "New York via Lagos",
     "Lehi, Utah"
     ]
+    
+    static let imageNames = [
+        "jaromFront", "andrewFront", "hayderFront", "devinFront", "zebFront", "uzoFront", "beccaFront", "kardenFront"
+    ]
 }
