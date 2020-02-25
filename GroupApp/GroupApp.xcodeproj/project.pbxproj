@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F51C8C6240594A0009607C1 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F51C8C5240594A0009607C1 /* Member.swift */; };
 		6523C9DF2405904D0007BCEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6523C9DE2405904D0007BCEA /* AppDelegate.swift */; };
 		6523C9E12405904D0007BCEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6523C9E02405904D0007BCEA /* SceneDelegate.swift */; };
 		6523C9E32405904D0007BCEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6523C9E22405904D0007BCEA /* ViewController.swift */; };
@@ -14,10 +15,11 @@
 		6523C9E8240590500007BCEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6523C9E7240590500007BCEA /* Assets.xcassets */; };
 		6523C9EB240590500007BCEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6523C9E9240590500007BCEA /* LaunchScreen.storyboard */; };
 		6523C9F9240591080007BCEA /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6523C9F8240591080007BCEA /* ProfileController.swift */; };
-		6523C9FB2405910F0007BCEA /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6523C9FA2405910F0007BCEA /* Profile.swift */; };
+		6523C9FB2405910F0007BCEA /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6523C9FA2405910F0007BCEA /* Team.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F51C8C5240594A0009607C1 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
 		6523C9DB2405904D0007BCEA /* GroupApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6523C9DE2405904D0007BCEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6523C9E02405904D0007BCEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,7 +29,7 @@
 		6523C9EA240590500007BCEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6523C9EC240590500007BCEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6523C9F8240591080007BCEA /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
-		6523C9FA2405910F0007BCEA /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		6523C9FA2405910F0007BCEA /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +73,8 @@
 		6523C9F2240590530007BCEA /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				6523C9FA2405910F0007BCEA /* Profile.swift */,
+				6523C9FA2405910F0007BCEA /* Team.swift */,
+				0F51C8C5240594A0009607C1 /* Member.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -193,10 +196,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6523C9E32405904D0007BCEA /* ViewController.swift in Sources */,
-				6523C9FB2405910F0007BCEA /* Profile.swift in Sources */,
+				6523C9FB2405910F0007BCEA /* Team.swift in Sources */,
 				6523C9DF2405904D0007BCEA /* AppDelegate.swift in Sources */,
 				6523C9E12405904D0007BCEA /* SceneDelegate.swift in Sources */,
 				6523C9F9240591080007BCEA /* ProfileController.swift in Sources */,
+				0F51C8C6240594A0009607C1 /* Member.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,7 +346,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J6T2JGDSTV;
-				INFOPLIST_FILE = GroupApp/Info.plist;
+				INFOPLIST_FILE = GroupApp/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -360,7 +364,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J6T2JGDSTV;
-				INFOPLIST_FILE = GroupApp/Info.plist;
+				INFOPLIST_FILE = GroupApp/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
